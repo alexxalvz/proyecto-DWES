@@ -4,7 +4,7 @@ include_once 'Miembro.php';
 class Profesor extends Miembro {
     //Atributos
     private int $numeroAsignaturas;
-    private boolean $titular;
+   
 
     //Constructor
     public function __construct(int $id, string $nombre, string $apellidos, string $email, int $numeroAsignaturas) {
